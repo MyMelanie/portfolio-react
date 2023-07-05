@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from 'react';
 import { useMagicBackground } from "./MagicBgContent";
 
@@ -10,8 +8,6 @@ const Contact = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        // Дополнительная обработка формы
-        // ...
         setSubmitted(true);
     };
 
@@ -28,7 +24,7 @@ const Contact = () => {
     return (
         <div name='contact' className={`w-full h-screen ${isMagicBackground ? 'bg-contact' : 'bg-default'} flex justify-center items-center p-4 `}>
             {!submitted ? (
-                <form  method='POST' action="https://getform.io/f/591b2d4d-3866-4d33-95f8-c5be6a968af0" onSubmit={handleSubmit} className="flex flex-col max-w-[600px] w-full mt-14">
+                <form action="https://getform.io/f/591b2d4d-3866-4d33-95f8-c5be6a968af0" method="POST" onSubmit={handleSubmit} className="flex flex-col max-w-[600px] w-full mt-14">
                     <div className="pb-4">
                         <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">Contact</p>
                         <p className="text-gray-300 py-4">write me something</p>
