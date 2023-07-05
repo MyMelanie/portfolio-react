@@ -32,3 +32,29 @@
 .active {
   color: #DB2777;
 }
+
+.bg-space {
+    background-image: url('../src/assets/icon/magic-bg8.png');
+    background-color: #001D39;
+    background-size: 50%;
+    background-position-x: right;
+    background-repeat: repeat-y;
+}
+.bg-skills {
+    background-image: url('../src/assets/icon/magic-bg9-skills.png');
+    background-color: #001D39;
+    background-size: 30%;
+    background-position: 90% 90%;
+    background-repeat: no-repeat;
+}
+.bg-contact {
+    background-image: url('../src/assets/icon/pink-monster.png');
+    background-color: #001D39;
+    background-size: 10%;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+.bg-default {
+    background-color: #001D39;
+} 

@@ -1,0 +1,29 @@
+
+ @keyframes floatingAnimation {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-150px);
+  }
+}
+
+@keyframes rotateClockwise {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.image:hover {
+
+  animation: rotateClockwise 3s linear;
+  transform-origin: center center;
+  cursor: pointer;
+}
+
+.container {
+  display: inline-block;
+
+  animation: floatingAnimation 10s ease-in-out infinite;
+}

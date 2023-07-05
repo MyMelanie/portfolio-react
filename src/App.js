@@ -6,10 +6,12 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import { MagicBackgroundProvider } from "./components/MagicBgContent";
 
 function App() {
 	return (
 		<div>
+		<MagicBackgroundProvider>
 			<Navbar/>
 			<Routes>
 				<Route path='/' element={<Home/>} />
@@ -18,11 +20,8 @@ function App() {
 				<Route path='/work' element={<Work/>} />
 				<Route path='/contact' element={<Contact/>} />
 			</Routes>
-{/* 			<Home/>
-			<About/>
-			<Skills/>
-			<Work/>
-			<Contact/> */}
+		</MagicBackgroundProvider>
+			
 		</div>
 	);
 }

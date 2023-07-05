@@ -11,11 +11,11 @@ import Art from '../assets/projects/art.jpg'
 const Work = () => {
 
     return (
-        <div name='work' className="w-full min-h-screen text-gray-300 bg-[#0a192f]">
-            <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full min-h-full ">
-                <div className="pb-8">
+        <div name='work' className="w-full min-h-screen text-gray-300 bg-[#001D39]">
+            <div className="max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full min-h-full">
+                <div className="pb-6" style={{ marginTop: '4rem' }}>
                     <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Work</p>
-                    <p className="py-6">// Check out of my recent work</p>
+                    <p className="py-6">Check out of my recent works</p>
                 </div>
 
                 {/* Container */}
@@ -30,10 +30,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://react-todo-nine-silk.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/todo-list-react" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -48,10 +48,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://weather-app-iota-lovat-35.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/weather_app" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -66,10 +66,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://windows-u1ua.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/windows" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -84,10 +84,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://art-six-kappa.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/art" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -102,10 +102,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://food-tawny.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/food" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -120,10 +120,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://pulse-sable.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/pulse" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -138,10 +138,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://uber-two-brown.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/uber" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -156,10 +156,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://japan-one.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/relvise" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -174,10 +174,10 @@ const Work = () => {
                         
                             <div className='pt-8 text-center'>
                                 <a href="https://relvise-kappa.vercel.app/" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Demo</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Demo</button>
                                 </a>
                                 <a href="https://github.com/MyMelanie/relvise" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg'>Code</button>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg hover:text-gray-800'>Code</button>
                                 </a>
                             </div>
                         </div>

@@ -1,0 +1,33 @@
+
+@keyframes rotateClockwise {
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes pulsate {
+	0% {
+	  scale: 1; /* Начальная прозрачность изображения */
+	}
+	50% {
+	  scale: 1.3; /* Промежуточная прозрачность изображения */
+	}
+	100% {
+	  scale: 1; /* Конечная прозрачность изображения */
+	}
+  }
+
+.img_rotate:hover {
+	animation: rotateClockwise 2s linear; 
+	cursor: pointer;
+}
+
+.magicWand {
+	width: 40px;
+	height: 50px;
+	animation: pulsate 2s infinite; 
+}
+.magicWand:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
