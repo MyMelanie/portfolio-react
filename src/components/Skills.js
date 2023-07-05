@@ -18,7 +18,7 @@ const Skills = () => {
                     <p className='py-4'>These are the technologies I've worked with</p>
                 </div>
 
-                <div className='w-full grid grid-cols-4 sm:grid:cols-2 gap-4 text-center py-8'>
+                <div className='w-full grid lg:grid-cols-4 gap-4 sm:grid-cols-2 text-center py-8'>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Html} alt="Html icon" />

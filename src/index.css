@@ -41,18 +41,17 @@
     background-repeat: repeat-y;
 }
 .bg-skills {
-    background-image: url('../src/assets/icon/magic-bg9-skills.png');
+    background-image: url('../src/assets/icon/pink-monster2.png');
     background-color: #001D39;
-    background-size: 30%;
-    background-position: 90% 90%;
+    background-size: 10%;
+    background-position: 95% 95%;
     background-repeat: no-repeat;
 }
 .bg-contact {
     background-image: url('../src/assets/icon/pink-monster.png');
     background-color: #001D39;
     background-size: 10%;
-    background-position-x: right;
-    background-position-y: bottom;
+    background-position: 95% 95%;
     background-repeat: no-repeat;
 }
 .bg-default {
