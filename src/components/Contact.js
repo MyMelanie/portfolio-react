@@ -30,10 +30,9 @@ const Contact = () => {
             
 
             {!submitted ? (
-                <form action="https://getform.io/f/591b2d4d-3866-4d33-95f8-c5be6a968af0" method="POST" onSubmit={handleSubmit} className="flex flex-col max-w-[600px] w-full mt-14">
+                <form method='POST' action="https://getform.io/f/591b2d4d-3866-4d33-95f8-c5be6a968af0" onSubmit={handleSubmit} className="flex flex-col max-w-[600px] w-full mt-14">
                     <div >
                         <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300 mb-4">Contact</p>
-                            
                             <div >
                                 <ul className="lg:hidden md sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-2 p-4 sm:w-full">
                                     <li className="w-[100%] h-[60px] flex justify-between items-center bg-[#D3215A] hover:scale-110 duration-500 mb-4">
@@ -77,8 +76,8 @@ const Contact = () => {
 
                         <p className="text-gray-300 py-4">Drop me an email</p>
                     </div>
-                    <input className="bg-[#ccd6f6] p-2" type="text" placeholder="Name" name='name'/>
-                    <input className="my-4 p-2 bg-[#ccd6f6]" type="email" placeholder="Email" name='email'/>
+                    <input type="text" className="bg-[#ccd6f6] p-2"  placeholder="Name" name='name'/>
+                    <input type="email" className="my-4 p-2 bg-[#ccd6f6]"  placeholder="Email" name='email'/>
                     <textarea type='text' className="bg-[#ccd6f6] px-2" name="message" rows="10" placeholder="Message"></textarea>
                     <button type="submit" className="text-white border-2 hover:bg-pink-600 hover:border-pinh-600 px-4 py-3 my-8 mx-auto flex items-center">Let's Collaborate</button>
                 </form>
