@@ -11,9 +11,9 @@ import { useMagicBackground } from './MagicBgContent'
 const Skills = () => {
     const { isMagicBackground } = useMagicBackground();
     return (
-        <div name='skills' className={`w-full h-screen bg-[#001D39] text-gray-300 ${isMagicBackground ? 'bg-skills' : 'bg-default'}`}>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div>
+        <div name='skills' className={`w-full min-h-screen p-8 bg-[#001D39] text-gray-300 ${isMagicBackground ? 'bg-skills' : 'bg-default'}`}>
+            <div className='max-w-[1000px] mx-auto p-8 flex flex-col justify-center w-full min-h-full'>
+                <div style={{ marginTop: '4rem' }}>
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>My Skills</p>
                     <p className='py-4'>These are the technologies I've worked with</p>
                 </div>
