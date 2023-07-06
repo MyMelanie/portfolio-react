@@ -65,7 +65,7 @@ const Contact = () => {
                                     <li className="w-[100%] h-[60px] flex justify-between items-center  bg-[#585400] hover:scale-110 duration-500 mb-4">
                                         <a
                                             className="flex  justify-between item-center w-full text-gray-300"
-                                            href="https://drive.google.com/drive/u/1/my-drive?ths=true"
+                                            href="https://drive.google.com/file/d/1zH02INuBtitJ-nO2Rju1rHKoBhBKpLmE/view?usp=drive_link"
                                             target="_blank"
                                         >
                                             Resume <BsFillPersonLinesFill size={30} />
