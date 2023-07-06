@@ -13,11 +13,17 @@ const About = () => {
                 </div>
                     <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                         <div className="sm:text-left text-4xl font-bold ">
-                            <p>Hi! I'm Natallia, nice to meet you. Please take a look around. </p>
+                            <p>Hi! I'm Natallia, nice to meet you.</p>
                         </div>
                         <div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quo aspernatur delectus consequatur temporibus repudiandae dolorum id mollitia sint modi deserunt corrupti odit possimus sapiente ullam nostrum, magnam, amet consequuntur.
+                            Learning web development has been a true adventure for me during the lockdown. Initially, I was just looking for a way to fill my free time, but when I started learning HTML and CSS, I realized that it was exactly what I wanted to do.
+                            <div class="mt-4"></div>
+
+                            After mastering the fundamentals of HTML and CSS, I developed a keen interest in creating interactive and dynamic web applications. That's why I delved into the world of JavaScript and React. These technologies have opened up vast possibilities for me, and I am continuously exploring them. 
+                            <div class="mt-4"></div>
+
+                            I am committed to continuing my growth and improving my web development skills. I am genuinely passionate about this field because each new project represents an opportunity for me to learn new technologies and create something exciting. I am ready to take on any challenge and enthusiastically participate in new and engaging projects.
 
                             </p>
                         </div>

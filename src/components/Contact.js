@@ -74,7 +74,7 @@ const Contact = () => {
                                 </ul>
                             </div>
 
-                        <p className="text-gray-300 py-4">Drop me an email</p>
+                        <p className="text-gray-300 py-4">Send me a note</p>
                     </div>
                     <input type="text" className="bg-[#ccd6f6] p-2"  placeholder="Name" name='name'/>
                     <input type="email" className="my-4 p-2 bg-[#ccd6f6]"  placeholder="Email" name='email'/>

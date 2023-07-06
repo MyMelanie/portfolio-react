@@ -13,7 +13,10 @@ const Home = () => {
                     <p className= 'text-white bold'>Aloha! My name is</p>
                     <h1 className='text-5xl sm:text-7xl font-bold text-pink-600'>Natallia Karpuk</h1> 
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Web-developer</h2>
-                    <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat enim laboriosam ducimus rerum dolorum officiis eaque alias, dolorem nisi impedit, voluptate reiciendis quasi earum tempore veritatis consectetur velit! Quo, nam.</p>
+                    <p className='text-[#8892b0] py-4 max-w-[700px]'>
+                    Welcome to my portfolio! <br/>
+                    I am a self-taught aspiring web developer. I enjoy learning new things and applying my knowledge in my projects. My passion for web development drives me to create interesting projects with clean code and intuitive design.
+                    </p>
                 
                 <div>
                     <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
